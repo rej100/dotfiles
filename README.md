@@ -8,6 +8,23 @@ After installation, run: `sudo apt update && sudo apt upgrade -y`
 ## Install i3
 ```sudo apt install i3```
 
+### Config
+File path: ```~/.config/i3/config```
+
+#### Replace terminal
+```
+# From:
+bindsym $mod+Return exec i3-sensible-terminal
+
+# To:
+bindsym $mod+Return exec alacritty
+```
+
+#### Remap Capslock to Escape
+```
+exec --no-startup-id setxkbmap -option caps:escape
+```
+
 ## Install vim
 ```sudo apt install vim```
 
@@ -22,23 +39,15 @@ Make zsh the default shell:
 Install Oh My Zsh:
 ```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
 
+### Config
+File path: ```~/.zshrc```
+
 ## Install Alacritty
+Install Alacritty as per https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 
-### Prerequisites
-
-Clone the source code:
+Create config file:
 ```
-git clone https://github.com/alacritty/alacritty.git
-cd alacritty
-```
-
-Install the Rust compiler with rustup:
-```
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-To make sure you have the right Rust compiler installed, run:
-```
-rustup override set stable
-rustup update stable
+mkdir ~/.config/alacritty
+cd ~/.config/alacritty
+touch alacritty.toml
 ```
