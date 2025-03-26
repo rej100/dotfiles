@@ -304,3 +304,9 @@ The config file is in:
 ```
 
 TEST
+
+
+## Install GNU Stow
+```
+sudo apt install stow
+```
