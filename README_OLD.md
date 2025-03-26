@@ -1,4 +1,4 @@
-# Setup Guide
+# Setup Guide (DEPRECATED)
 
 ## Install Linux Mint
 Make sure NOT to enable autologin.
