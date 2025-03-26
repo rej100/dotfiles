@@ -302,5 +302,3 @@ The config file is in:
 ```
 ~/.config/Code/User/settings.json 
 ```
-
-
