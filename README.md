@@ -71,5 +71,3 @@ cd dotfiles
 stow . --adopt
 git restore .
 ```
-
-TEST
