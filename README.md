@@ -20,7 +20,7 @@ git config --global user.email "youremail@example.com"
 ```
 And:
 ```
-git config --global credential.helper cache
+git config --global credential.helper store
 ```
 
 ## Install vscode
