@@ -26,15 +26,21 @@ git config --global credential.helper cache
 ## Install vscode
 https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux
 
+## Install JetBrains Mono Nerdfont
+Download https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip into `~/Downloads`
+
+Then:
+```
+cd ~/Downloads
+mkdir -p ~/.local/share/fonts/
+unzip JetBrainsMono*.zip -d ~/.local/share/fonts/
+fc-cache -fv
+fc-list | grep "JetBrains"
+```
+
 ## Install Alacritty
 Install Alacritty as per https://github.com/alacritty/alacritty/blob/master/INSTALL.md
 
-Create config file:
-```
-mkdir ~/.config/alacritty
-cd ~/.config/alacritty
-touch alacritty.toml
-```
 ## Install vim, stow, feh, zsh, picom, dunst, rofi, polybar, i3
 Run:
 ```

@@ -1,4 +1,8 @@
 {
     "editor.lineNumbers": "relative",
-    "vim.useSystemClipboard": true
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-n>": false,
+    }
 }
