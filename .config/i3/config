@@ -84,7 +84,7 @@ gaps inner 10px
 
 # Configure an additional 10px of extra space to the screen edges,
 # for a total gap of 20px to the screen edges, and 5px between windows.
-gaps outer 10px
+# gaps outer 10px
 
 # Disable smart gaps
 smart_gaps off
