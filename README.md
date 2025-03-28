@@ -23,11 +23,6 @@ And:
 git config --global credential.helper store
 ```
 
-## Install pip
-```
-sudo apt install python3-pip
-```
-
 ## Install vscode
 https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux
 
