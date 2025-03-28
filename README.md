@@ -51,6 +51,12 @@ sudo apt install vim stow feh zsh picom dunst rofi polybar i3
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+## Install Starship
+Run:
+```
+curl -sS https://starship.rs/install.sh | sh
+```
+
 ## Manual Configuration
 Make zsh the default shell:
 ```
