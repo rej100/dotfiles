@@ -7,5 +7,6 @@
     "vim.handleKeys": {
         "<C-p>": false,
         "<C-n>": false,
-    }
+    },
+    "workbench.colorTheme": "Catppuccin Macchiato"
 }
