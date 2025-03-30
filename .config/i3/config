@@ -90,8 +90,8 @@ gaps inner 10px
 smart_gaps off
 
 # Remove title bars in tiling mode
-for_window [tiling] border pixel 3
-# for_window [tiling] border none
+# for_window [tiling] border pixel 3
+for_window [tiling] border none
 
 # Set windows that start out as floating (e.g save dialog) to not have a border.
 default_floating_border none
