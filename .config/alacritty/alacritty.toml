@@ -1,5 +1,3 @@
-[general]
-
 import = [
     "~/.config/alacritty/catppuccin-macchiato.toml"
 ]
@@ -15,14 +13,5 @@ bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
 # The "italic" style, similarly:
 italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
 
-# And if you like, you can also specify bold_italic:
-# bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
-
 # Font size in points
 size = 11.0
-
-# Optional: Additional spacing around/between characters.
-# offset = { x = 0, y = 0 }
-#
-# Optional: Tweaks for glyph offset within their cells (rarely needed).
-# glyph_offset = { x = 0, y = 0 }
