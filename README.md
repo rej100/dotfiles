@@ -38,14 +38,12 @@ fc-cache -fv
 fc-list | grep "JetBrains"
 ```
 
-## Install Alacritty
-Install Alacritty as per https://github.com/alacritty/alacritty/blob/master/INSTALL.md
-
-## Install vim, stow, feh, zsh, picom, dunst, rofi, polybar, i3
+## Install vim, stow, feh, zsh, alacritty, picom, dunst, rofi, polybar, i3
 Run:
 ```
-sudo apt install vim stow feh zsh picom dunst rofi polybar i3
+sudo apt install vim stow feh alacritty zsh picom dunst rofi polybar i3
 ```
+
 ## Install Oh My Zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
