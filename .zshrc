@@ -103,3 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(starship init zsh)"
+
+# ==========================================================================================
+# ANYTHING AFTER THIS IS NOT PART OF THE ACTUAL CONFIG BUT ADDED BY INSTALLED SOFTWARE ETC
+# ==========================================================================================
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
