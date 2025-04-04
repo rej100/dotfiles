@@ -80,7 +80,7 @@ exec --no-startup-id dunst
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Configure 10px of space between windows and to the screen edges.
-gaps inner 10px
+gaps inner 5px
 
 # Configure an additional 10px of extra space to the screen edges,
 # for a total gap of 20px to the screen edges, and 5px between windows.
