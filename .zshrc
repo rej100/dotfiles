@@ -107,4 +107,3 @@ eval "$(starship init zsh)"
 # ==========================================================================================
 # ANYTHING AFTER THIS IS NOT PART OF THE ACTUAL CONFIG BUT ADDED BY INSTALLED SOFTWARE ETC
 # ==========================================================================================
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
