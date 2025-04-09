@@ -38,10 +38,10 @@ fc-cache -fv
 fc-list | grep "JetBrains"
 ```
 
-## Install vim, stow, feh, zsh, alacritty, picom, dunst, rofi, polybar, i3
+## Install vim, stow, feh, imagemagick, zsh, alacritty, picom, dunst, rofi, polybar, i3
 Run:
 ```
-sudo apt install vim stow feh alacritty zsh picom dunst rofi polybar i3
+sudo apt install vim stow feh imagemagick alacritty zsh picom dunst rofi polybar i3
 ```
 
 ## Install Oh My Zsh
