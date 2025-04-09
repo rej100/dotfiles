@@ -66,7 +66,8 @@ Put a wallpaper in:
 ~/config/Pictures/wallpaper.jpg
 ```
 
-## Stow The Dotfiles
+## Pull The Configuration
+### Stow The Dotfiles
 Do the following in the home directory `~`:
 
 ```
@@ -74,4 +75,9 @@ git clone https://github.com/rej100/dotfiles.git
 cd dotfiles
 stow . --adopt
 git restore .
+```
+
+### Make scripts executable
+```
+chmod +x ~/.config/scripts/*
 ```
