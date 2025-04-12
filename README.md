@@ -48,22 +48,12 @@ sudo apt install vim stow feh imagemagick alacritty zsh picom dunst rofi polybar
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+Make sure to select the option to make zsh the default shell.
 
 ## Install Starship
 Run:
 ```
 curl -sS https://starship.rs/install.sh | sh
-```
-
-## Manual Configuration
-Make zsh the default shell:
-```
-chsh -s $(which zsh)
-```
-
-Put a wallpaper in:
-```
-~/config/Pictures/wallpaper.jpg
 ```
 
 ## Pull The Configuration
