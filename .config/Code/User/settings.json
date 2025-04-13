@@ -9,5 +9,5 @@
         "<C-n>": false,
     },
     "workbench.colorTheme": "Catppuccin Macchiato",
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
 }

@@ -69,5 +69,5 @@ git restore .
 
 ### Make scripts executable
 ```
-chmod +x ~/.config/scripts/*
+find . -type f -name "*.sh" -exec chmod +x {} \;
 ```
