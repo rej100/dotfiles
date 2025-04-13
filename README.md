@@ -71,3 +71,10 @@ git restore .
 ```
 find . -type f -name "*.sh" -exec chmod +x {} \;
 ```
+
+## Install gtk and icon theme
+```
+sudo apt install lxappearance materia-gtk-theme papirus-icon-theme
+```
+
+then use lxappearance to set the themes
