@@ -80,6 +80,9 @@ exec --no-startup-id dunst
 # Run the polybar launch script
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+# Start flameshot
+exec --no-startup-id flameshot
+
 # Configure 10px of space between windows and to the screen edges.
 gaps inner 5px
 
