@@ -1,8 +1,9 @@
 # Setup Guide
-
-## Install and Update Fedorea
+## Install and Update Fedora
 After installation follow: https://github.com/devangshekhawat/Fedora-42-Post-Install-Guide
 
+
+# General
 ## Install KeePassXC
 ```
 flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
@@ -42,10 +43,10 @@ fc-cache -fv
 fc-list | grep "JetBrains"
 ```
 
-## Install stow
+## Install stow, alacritty
 Run:
 ```
-sudo dnf install stow
+sudo dnf install stow alacritty
 ```
 
 ## Install Oh My Zsh
@@ -76,9 +77,15 @@ git restore .
 find . -type f -name "*.sh" -exec chmod +x {} \;
 ```
 
-## Install gtk and icon theme
+# Gnome
+## Install gnome-tweaks
 ```
-sudo apt install lxappearance materia-gtk-theme papirus-icon-theme
+sudo dnf install gnome-tweaks
 ```
-
-then use lxappearance to set the themes
+## Rebind Caps Lock to Escape and Shift + Caps Lock to Caps Lock
+Then:
+1. Launch gnome-tweaks
+2. Go to "Keyboard"
+3. Click on "Additional Layout Options"
+4. Select the "Caps Lock Behaviour" dropdown
+5. Enable "Make Caps Lock an additional Esc, but Shift + Caps Lock is regular Caps Lock"
