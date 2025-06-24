@@ -43,10 +43,10 @@ fc-cache -fv
 fc-list | grep "JetBrains"
 ```
 
-## Install stow, alacritty
+## Install stow alacritty zsh
 Run:
 ```
-sudo dnf install stow alacritty
+sudo dnf install stow alacritty zsh
 ```
 
 ## Install Oh My Zsh
