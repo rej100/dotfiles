@@ -1,7 +1,0 @@
-"$schema" = 'https://starship.rs/config-schema.json'
-
-[directory]
-truncation_length = 1024
-truncation_symbol = '…/'
-truncate_to_repo = false
-read_only = ''
