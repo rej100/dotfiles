@@ -78,6 +78,22 @@ find . -type f -name "*.sh" -exec chmod +x {} \;
 ```
 
 # Gnome
+## Setup i3-like Keybindings for Gnome
+
+* Fixed workspaces 1-9
+* Super-number jump / move
+* Alt+Tab limited to current workspace
+* Vim-like tiling & maximise keys:
+    * Super+h -> tile left
+    * Super+l -> tile right
+    * Super+k -> maximise
+    * Super+j -> unmaximise / restore
+
+```
+cd dotfiles
+./gnome-i3-keybindings-setup.sh
+```
+
 ## Install gnome-tweaks
 ```
 sudo dnf install gnome-tweaks
