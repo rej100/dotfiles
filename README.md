@@ -77,6 +77,9 @@ git restore .
 find . -type f -name "*.sh" -exec chmod +x {} \;
 ```
 
+## Set the Wallpaper
+set `dotfiles/.config/images/wallpaper.jpg` as the wallpaper
+
 # Gnome
 ## Setup i3-like Keybindings for Gnome
 
@@ -125,3 +128,13 @@ In the settings of the Rounded Window Corners Reborn extension:
 1. Set border width to 1px
 2. Set border color to the middle one in the last column
 3. Set border radius to 15px
+
+## Blurred Top Bar
+Install: https://extensions.gnome.org/extension/3193/blur-my-shell/
+
+## Smaller Top Bar
+Install: https://extensions.gnome.org/extension/3843/just-perfection/
+
+In the settings of the Just Perfection extension:
+1. Set panel size to 24px
+2. Set panel icon size to 14px
