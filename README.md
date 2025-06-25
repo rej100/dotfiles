@@ -96,14 +96,18 @@ cd dotfiles
 ./gnome-i3-keybindings-setup.sh
 ```
 
-## Install gnome-tweaks
+## Install gnome-tweaks gnome-extensions-app
 ```
-sudo dnf install gnome-tweaks
+sudo dnf install gnome-tweaks gnome-extensions-app
 ```
+
 ## Rebind Caps Lock to Escape and Shift + Caps Lock to Caps Lock
-Then:
 1. Launch gnome-tweaks
 2. Go to "Keyboard"
 3. Click on "Additional Layout Options"
 4. Select the "Caps Lock Behaviour" dropdown
 5. Enable "Make Caps Lock an additional Esc, but Shift + Caps Lock is regular Caps Lock"
+
+## Enable Launch New Instance
+1. Launch gnome-extensions-app
+2. Enable "Launch New Instance"
