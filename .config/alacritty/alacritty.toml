@@ -1,7 +1,7 @@
-[general]
-import = [
-    "~/.config/alacritty/catppuccin-macchiato.toml"
-]
+[window]
+decorations = "None"
+
+padding = { x = 5, y = 5 }
 
 [font]
 # The "normal" style is used for regular (non-bold, non-italic) text.

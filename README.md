@@ -111,3 +111,17 @@ sudo dnf install gnome-tweaks gnome-extensions-app
 ## Enable Launch New Instance
 1. Launch gnome-extensions-app
 2. Enable "Launch New Instance"
+
+## Enable 24 Hour Clock
+1. Go to Gnome settings
+2. Go to System
+3. Go to Date and Time
+4. Switch clock to 24 hours
+
+## Rounded Corners and Borders
+Install: https://extensions.gnome.org/extension/7048/rounded-window-corners-reborn/
+
+In the settings of the Rounded Window Corners Reborn extension:
+1. Set border width to 1px
+2. Set border color to the middle one in the last column
+3. Set border radius to 15px
