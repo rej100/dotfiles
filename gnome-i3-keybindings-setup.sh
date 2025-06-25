@@ -35,4 +35,7 @@ gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Super>l']"
 gsettings set org.gnome.desktop.wm.keybindings maximize       "['<Super>k']"
 gsettings set org.gnome.desktop.wm.keybindings unmaximize     "['<Super>j']"
 
+### 4. Close window with Super+Q (and still Alt+F4) ###################
+gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q', '<Alt>F4']"
+
 echo "OK: All keybindings applied."

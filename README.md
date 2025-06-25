@@ -81,13 +81,15 @@ find . -type f -name "*.sh" -exec chmod +x {} \;
 ## Setup i3-like Keybindings for Gnome
 
 * Fixed workspaces 1-9
-* Super-number jump / move
+* Super + number -> switch workspace
+* Super + Shift + number -> send to workspace
 * Alt+Tab limited to current workspace
 * Vim-like tiling & maximise keys:
     * Super+h -> tile left
     * Super+l -> tile right
     * Super+k -> maximise
     * Super+j -> unmaximise / restore
+* Super + q -> close
 
 ```
 cd dotfiles
