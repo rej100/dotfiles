@@ -136,5 +136,5 @@ Install: https://extensions.gnome.org/extension/3193/blur-my-shell/
 Install: https://extensions.gnome.org/extension/3843/just-perfection/
 
 In the settings of the Just Perfection extension:
-1. Set panel size to 22px
-2. Set panel icon size to 12px
+1. Set panel size to 23px
+2. Set panel icon size to 13px
