@@ -2,7 +2,6 @@
 ## Install and Update Fedora
 After installation follow: https://github.com/devangshekhawat/Fedora-42-Post-Install-Guide
 
-
 # General
 ## Install KeePassXC
 ```
