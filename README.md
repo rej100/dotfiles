@@ -139,3 +139,10 @@ In the settings of the Just Perfection extension:
 1. Enable shell theme override
 2. Set panel size to 22px
 3. Set panel icon size to 12px
+
+## Add Window Title to Top Bar
+Install: https://extensions.gnome.org/extension/6310/window-title-is-back/
+
+In the settings of the Window Title Is Back Extension:
+1. Disable Show Icon
+2. Disable Show App Name
