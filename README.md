@@ -127,6 +127,7 @@ In the settings of the Rounded Window Corners Reborn extension:
 1. Set border width to 1px
 2. Set border color to the middle one in the last column
 3. Set border radius to 15px
+4. Set all paddings to 0px
 
 ## Blurred Top Bar
 Install: https://extensions.gnome.org/extension/3193/blur-my-shell/
@@ -137,4 +138,4 @@ Install: https://extensions.gnome.org/extension/3843/just-perfection/
 In the settings of the Just Perfection extension:
 1. Enable shell theme override
 2. Set panel size to 22px
-3. Set panel icon size to 1px
+3. Set panel icon size to 12px

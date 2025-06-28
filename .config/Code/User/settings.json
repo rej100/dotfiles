@@ -9,4 +9,5 @@
         "<C-n>": false,
     },
     "security.workspace.trust.untrustedFiles": "open",
+    "keyboard.dispatch": "keyCode"
 }
