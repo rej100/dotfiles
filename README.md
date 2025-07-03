@@ -42,10 +42,10 @@ fc-cache -fv
 fc-list | grep "JetBrains"
 ```
 
-## Install stow alacritty zsh
+## Install stow alacritty zsh tmux
 Run:
 ```
-sudo dnf install stow alacritty zsh
+sudo dnf install stow alacritty zsh tmux
 ```
 
 ## Install Oh My Zsh
@@ -59,6 +59,11 @@ Run:
 ```
 curl -sS https://starship.rs/install.sh | sh
 ```
+## Install tpm for tmux
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 
 ## Pull The Configuration
 ### Stow The Dotfiles
