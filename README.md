@@ -72,7 +72,7 @@ Do the following in the home directory `~`:
 ```
 git clone https://github.com/rej100/dotfiles.git
 cd dotfiles
-stow . --adopt
+stow . --adopt --no-folding
 git restore .
 ```
 
