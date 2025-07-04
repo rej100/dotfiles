@@ -25,6 +25,7 @@ git config --global user.email "youremail@example.com"
 And:
 ```
 git config --global credential.helper store
+git config --global core.editor "vim"
 ```
 
 ## Install vscode
@@ -42,10 +43,10 @@ fc-cache -fv
 fc-list | grep "JetBrains"
 ```
 
-## Install stow alacritty zsh tmux
+## Install stow alacritty zsh tmux vim-enhanced
 Run:
 ```
-sudo dnf install stow alacritty zsh tmux
+sudo dnf install stow alacritty zsh tmux vim-enhanced
 ```
 
 ## Install Oh My Zsh
@@ -103,7 +104,7 @@ cd dotfiles
 ./gnome-i3-keybindings-setup.sh
 ```
 
-## Install gnome-tweaks gnome-extensions-app
+## Install gnome-tweaks gnome-extensions-app 
 ```
 sudo dnf install gnome-tweaks gnome-extensions-app
 ```
