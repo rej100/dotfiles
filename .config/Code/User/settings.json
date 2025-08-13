@@ -10,7 +10,4 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "keyboard.dispatch": "keyCode",
-
-    "github.copilot.chat.autoOpen": false
-
 }
