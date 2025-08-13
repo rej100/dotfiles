@@ -9,5 +9,8 @@
         "<C-n>": false,
     },
     "security.workspace.trust.untrustedFiles": "open",
-    "keyboard.dispatch": "keyCode"
+    "keyboard.dispatch": "keyCode",
+
+    "github.copilot.chat.autoOpen": false
+
 }
