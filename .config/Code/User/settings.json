@@ -10,4 +10,7 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "keyboard.dispatch": "keyCode",
+    "[java]": {
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
 }

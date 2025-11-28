@@ -1,18 +1,15 @@
 [window]
 decorations = "None"
-
 padding = { x = 5, y = 5 }
 
+# Set default window size (in columns and lines)
+dimensions = { columns = 160, lines = 48 }
+
+# Alternatively, you could set pixel size instead:
+# size = { width = 1600, height = 900 }
+
 [font]
-# The "normal" style is used for regular (non-bold, non-italic) text.
 normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-
-# The "bold" style can override the normal family. If not specified, it
-# will default to the 'normal' family, but you can be explicit:
 bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-
-# The "italic" style, similarly:
 italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
-
-# Font size in points
 size = 11.0
