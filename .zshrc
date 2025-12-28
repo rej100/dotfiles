@@ -21,6 +21,10 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(starship init zsh)"
 
+# --- CUSTOM ALIASES ---
+alias fixbrave='rm -rf ~/.config/BraveSoftware/Brave-Browser/Singleton*'
+# ----------------------
+
 # ---------- auto-attach / auto-create tmux ----------
 # Only run if we're *not* already inside a tmux pane.
 if [[ -z $TMUX ]]; then
