@@ -15,4 +15,5 @@ italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
 size = 11.0
 
 [keyboard]
-bindings = [ { key = "Return", mods = "Shift", chars = "\n" } ]
+# Shift+Return sends ESC+Enter (same as Option+Enter) to work in tmux
+bindings = [{ key = "Return", mods = "Shift", chars = "\u001b\r" }]
