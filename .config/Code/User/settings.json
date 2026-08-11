@@ -13,4 +13,7 @@
     "[java]": {
         "editor.suggest.snippetsPreventQuickSuggestions": false
     },
+    "[latex]": {
+        "editor.wordWrap": "on"
+    },
 }
