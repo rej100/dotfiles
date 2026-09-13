@@ -16,4 +16,8 @@
     "[latex]": {
         "editor.wordWrap": "on"
     },
+
+    "shader-validator.validate": false,
+    "shader-validator.symbols": true,
+    "shader-validator.symbolDiagnostics": false
 }
