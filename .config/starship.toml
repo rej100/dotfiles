@@ -1,7 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 # format = "$time $directory$git_branch$git_status$cmd_duration$line_break$character"
-format = "$time $directory$git_branch$git_status$cmd_duration$line_break$character"
+format = "$time $directory$git_branch$git_status${custom.git_email}$cmd_duration$line_break$character"
 
 [directory]
 truncation_length = 1024
