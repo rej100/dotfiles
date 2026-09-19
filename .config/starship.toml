@@ -1,5 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
+# format = "$time $directory$git_branch$git_status$cmd_duration$line_break$character"
 format = "$time $directory$git_branch$git_status$cmd_duration$line_break$character"
 
 [directory]
@@ -12,3 +13,11 @@ read_only = ''
 disabled = false
 format = "[$time]($style)"
 time_format = "%H:%M:%S"
+
+[custom.git_email]
+command = "git config --get user.email"
+when = true
+require_repo = true
+format = "[as $output]($style) "
+style = "bold yellow"
+description = "Effective Git commit email"
